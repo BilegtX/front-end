@@ -1,0 +1,44 @@
+body {
+  background-color: #cecece;
+}
+#main {
+  margin: auto;
+  width: 350px;
+  height: 200px;
+  border: 1px solid #000;
+  background-color: #fff;
+  display: flex;
+
+  padding: 20px;
+}
+#main #column {
+  width: 50%;
+}
+#main div img {
+  width: 8 0px;
+  height: 70px;
+}
+.info {
+  line-height: 0.7;
+}
+.info h3 {
+  color: #4f5cd1;
+}
+
+span {
+  color: #912ffa;
+}
+
+#address {
+  margin-top: 40px;
+  line-height: 0.6;
+}
+#address #phone {
+  color: #26ede0;
+}
+#address #email {
+  color: #7f16b8;
+}
+#address #page {
+  color: #912ffa;
+}

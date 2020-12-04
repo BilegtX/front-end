@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.fds {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.h1 {
+  display: flex;
+  color: rgb(0, 0, 0);
+  /* position: relative; */
+  justify-content: center;
+  margin-top: 35vh;
+  /* align-items: center; */
+  /* margin-left0px; */
+}

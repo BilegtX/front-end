@@ -1,0 +1,158 @@
+body {
+  background-color: #91d5ff;
+  display: flex;
+  justify-content: center;
+}
+#main {
+  position: relative;
+  margin: 100px auto;
+  background-color: #fff;
+  width: 800px;
+  height: 515px;
+  box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+#top {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.72);
+}
+#top h1 {
+  color: white;
+}
+#top .padding {
+  padding: 25px 70px;
+}
+#top #right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* justify-content: space-around; */
+}
+#top #right #padding {
+  padding-top: 10px;
+}
+#top #icons {
+  width: 120;
+  height: 60px;
+  /* background-color: white; */
+  margin-right: 60px;
+  margin-top: 170px;
+}
+.inside {
+  width: 120;
+  height: 30px;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  /* justify-content: space-around; */
+  color: white;
+}
+.material-icons {
+  color: #0f43ff;
+}
+#icons p {
+  position: relative;
+}
+.buttom {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #607dff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+h3 {
+  color: white;
+}
+#bottom {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 32%;
+  width: 100%;
+  height: 50%;
+}
+#bottom #left {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: flex-end;
+}
+#bottom #right {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(54, 56, 55);
+}
+#right p {
+  padding: 15px 40px;
+  font-size: 18px;
+  color: white;
+}
+#circle {
+  position: Absolute;
+  height: 199px;
+  width: 199px;
+  background-color: #bbb;
+  margin-left: 57.5px;
+  margin-top: 155px;
+  border-radius: 50%;
+  border: 3px solid #0f43ff;
+  display: inline-block;
+  overflow: hidden;
+}
+#dood {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: row;
+  /* background-color: black; */
+}
+.cut {
+  width: 33.3%;
+  height: 60%;
+  margin-top: 3%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+}
+.cut .icons {
+  width: 100%;
+  height: 40%;
+  /* background-color: rgb(98, 160, 168); */
+  display: flex;
+  justify-content: center;
+  justify-content: row;
+  align-items: center;
+}
+.icons p {
+  font-size: 13px;
+  color: gray;
+}
+.too {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  /* justify-content: row; */
+  align-items: center;
+}
+.too p1 {
+  font-size: 30px;
+  color: #3b3b3b;
+}

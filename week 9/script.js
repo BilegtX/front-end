@@ -29,14 +29,14 @@ Ex4(1,2,3,4,5)
 
 
 let arr = [67, 89, 56, 78, 23];
-let a = 0;
-for(let i = 0; i < arr.length; i++){
-  a += arr[i];
+let sum = 0;
+for(let i = 0; i < sumrr.length; i++){
+  sum += arr[i];
 }
-a = a / 5;
-if(a < 60){
+sum /= 5;
+if(sum < 60){
   console.log("Dundaj dun: F")
-} else if(a < 70) console.log("Dundaj dun: D");
-  else if(a < 80) console.log("Dundaj dun: C");
-        else if(a < 90) console.log("Dundaj dun: B");
+} else if(sum < 70) console.log("Dundaj dun: D");
+  else if(sum < 80) console.log("Dundaj dun: C");
+        else if(sum < 90) console.log("Dundaj dun: B");
               else console.log("Dundaj dun: A");

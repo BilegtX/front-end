@@ -1,0 +1,3 @@
+[submodule "week"]
+	path = week
+	url = https://github.com/BilegtX/front-end.git
